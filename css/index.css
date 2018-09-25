@@ -1,0 +1,22 @@
+    table,
+    th,
+    td {
+        border: 1.5px solid black;
+        border-collapse: collapse
+    }
+    
+    th,
+    td {
+        padding: 10px;
+        width: 80px;
+    }
+    
+    th {
+        background-color: rgba(111, 221, 255, 0.5)
+    }
+    
+    td.row {
+        text-align: center;
+        font-weight: bold;
+        background-color: rgba(250, 235, 215, 0.5)
+    }
