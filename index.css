@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #f6f6f6;
+    padding: 20px
+}
+
+.heading {
+    background-color: #ffe1e1;
+    padding: 20px;
+    text-align: center
+}
+
+
+/* 目錄 */
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #99ddcc;
+    margin: 0;
+    padding: 0
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 10px 15px;
+    text-align: center
+}
+
+li a {
+    text-decoration: none;
+    color: white
+}
+
+li:hover {
+    background: #61d4b7
+}
+
+
+/* context分成左右兩塊 */
+
+.left {
+    float: left;
+    width: 65%;
+}
+
+
+/* ...padding-left兩塊之間的距離 */
+
+.right {
+    float: left;
+    width: 35%;
+    padding-left: 20px
+}
+
+.text {
+    padding-left: 10px
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px
+}
+
+
+/* 課表 */
+
+table,
+th,
+td {
+    border: 1.5px solid black;
+    border-collapse: collapse
+}
+
+th,
+td {
+    padding: 10px;
+    width: 15%;
+}
+
+th {
+    background-color: rgba(111, 221, 255, 0.5)
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0.100)
+}
+
+td.row {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(250, 235, 215, 0.5)
+}
+
+.self {
+    padding: 10px;
+    width: 100%
+}
+
+.gallery {
+    padding: 5px;
+    width: 23%
+}
+
+.footer {
+    padding: 3px;
+    text-align: center;
+    background: #a8dde4;
+    margin-top: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
